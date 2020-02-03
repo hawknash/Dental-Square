@@ -10,7 +10,10 @@
 
 /* Center website */
 
-
+div.disabled {
+    overflow-x: hidden; //horizontal
+    overflow-y: scroll; //vertical
+}
 
 .row {
   margin: 8px -16px;
@@ -38,7 +41,7 @@
 /* Content */
 .content {
   background-color: white;
-  padding: 10px;
+  padding: 10px; 
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -91,7 +94,7 @@
   <!-- Navigation -->
   <nav id="mainNav" class="navbar navbar-expand-lg navbar-light fixed-top py-3">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Dental Square</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top" style="font-size: 170%">Dental Square</a>
       <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navBarResponsive" aria-controls="navBarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -134,7 +137,7 @@
 </header>
 
   <!-- About Section -->
-<section class="page-section bg-primary" id="about">
+<section class="page-section " id="about" style="background: linear-gradient(to bottom, #6a0dad 0%, #ff99cc 100%)">
   <div class="container">
     <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
@@ -145,7 +148,7 @@
                 <img src="img/den3.jpg">
               <h4 class="text-white mt-0" >Dr. Jaspreet Singh Tuteja <br>B.D.S, M.D.S <br> Family & Preventive Dentist</h4> </div><br>
               <div style="border: 2px solid white;padding: 20px" class="container">
-              <img src="img/ruhi.jpeg" style="width:300px;height:300px">
+              <img src="img/ruh.jpeg" style="width:300px;height:300px">
                <h4 class="text-white mt-0" >Dr. Ruhi Sharma <br> B.D.S.,M.D.S,P.G.DHA<br>Periodontist</h4></div><br>
             <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Our Services</a>
         </div>
@@ -161,36 +164,84 @@
     <div class="row">
       <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
-              <i class="fas fa-4x fa fa-medkit text-primary mb-4"></i>
-              <h3 class="h4 mb-2">Tooth Extraction</h3>
-              <p class="text-muted mb-0">Minimum Price</p>
+              <i class="fas fa-4x fas fa-tooth text-primary mb-4"></i>
+              
+              <h5 class="h5 mb-1">DENTURE.</h5>
+              <h5 class="h5 mb-1">FIXED/REMOVABLE TEETH.</h5>
+              <h5 class="h5 mb-1">IMPLANTS.</h5>
+              
           </div>
       </div>
 
       <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
-              <i class="fas fa-4x  fa fa-wheelchair text-primary mb-4"></i>
-              <h3 class="h4 mb-2">Up to Date</h3>
-              <p class="text-muted mb-0">All new technology.</p>
+              <i class="fas fa-4x  fas fa-tooth text-primary mb-4"></i>
+              <h5 class="h5 mb-1">ROOT CANAL TREATMENT.</h5>
+              <h5 class="h5 mb-1">TREATMENT OF SENSITIVE TEETH.</h5>
+            
           </div>
       </div>
 
       <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
-              <i class="fas fa-4x fa fa-stethoscope text-primary mb-4"></i>
-              <h3 class="h4 mb-2">Pyria</h3>
-              <p class="text-muted mb-0">With all </p>
+              <i class="fas fa-4x fas fa-tooth text-primary mb-4"></i>
+              <h5 class="h5 mb-1">TOOTH COLOURED FILLING.</h5>
+              <h5 class="h5 mb-1">TOOTH SCALLING AND POLISHING.</h5>
+              
           </div>
       </div>
 
 
       <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
-              <i class="fas fa-4x fa fa-user-md text-primary mb-4"></i>
-              <h3 class="h4 mb-2">Scalling</h3>
-              <p class="text-muted mb-0">New</p>
+              <i class="fas fa-4x fas fa-tooth text-primary mb-4"></i>
+              <h5 class="h5 mb-1">GUM TREATMENT AND SURGERY.</h5>
+              <h5 class="h5 mb-1">TEETH WHITENING.</h5>
+              <h5 class="h5 mb-1">TEETH BLEACHING.</h5>
+              
           </div>
       </div>
+
+<div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+              <!i class="fas fa-4x fa fa-user-md text-primary mb-4"><!/i>
+              <i class="fas fa-4x fas fa-tooth text-primary mb-4"></i>
+              <h5 class="h5 mb-1">REDUCED MOUTH OPENING.</h5>
+              <h5 class="h5 mb-1">DIS-IMPACTION.</h5>
+              
+          </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+              <!i class="fas fa-4x fa fa-user-md text-primary mb-4"><!/i>
+              <i class="fas fa-4x fas fa-tooth text-primary mb-4"></i>
+              <h5 class="h5 mb-1">CHILD DENTAL CARE.</h5>
+              <h5 class="h5 mb-1">ORTHODONTIC TREATMENT.</h5>
+              
+          </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+              <!i class="fas fa-4x fa fa-user-md text-primary mb-4"><!/i>
+              <i class="fas fa-4x fas fa-tooth text-primary mb-4"></i>
+              <h5 class="h5 mb-1">TREATMENT OF MOUTH ULCERS,INFECTION AND BURNING.</h5>
+              <h5 class="h5 mb-1">SMILE CORRECTION.<BR>COSMETIC DENTISTRY.<BR>AESTHETIC DENTISTRY.</h5>
+              
+          </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+              <!i class="fas fa-4x fa fa-user-md text-primary mb-4"><!/i>
+              <i class="fas fa-4x fas fa-tooth text-primary mb-4"></i>
+              <h5 class="h5 mb-1">TOBACCO DEADDICTION COUNSELING/THERAPY.</h5>
+              <h5 class="h5 mb-1">COMPUTERISED X-RAY.</h5>
+              
+          </div>
+      </div>
+
     </div>
   </div>
 </section>
@@ -200,7 +251,7 @@
 
 
   <!-- Portfolio Section -->
-<section id="portfolio">
+<section id="portfolio" style="max-width: 100%">
   <h2 class="text-center mt-0">Gallery</h2>
     <hr class="divider my-4">
   <div class="container-fluid p-0">
@@ -297,27 +348,29 @@
         </div>
 
   </div>
-  </section>
+  </section> 
 <br><br><br><br><br>
-
-        <section id="cases">
-  <h2 class="text-center mt-0">Cases</h2>
+<h2 class="text-center mt-0">Cases</h2>
     <hr class="divider my-4">
 
-
-<div class="bg-primary" style="text-align: center">
-<div class="row">
+        <section id="cases" style="background: linear-gradient(to bottom, #6a0dad 0%, #ff99cc 100%);width: 100%" >
   
-  <div class="column" style="margin-left: 15%">
-    <div class="content">
+
+
+<div  style="text-align: center;">
+<div class="row" >
+  
+  <div class="column" style="margin-left: 13%">
+    <div class="content" >
       <img src="img/scallingbefore.png" alt="Disease" style="width:100%">
       <h3>Scalling</h3>
       <p>Before</p>
     </div>
   </div>
 
+
   <div class="column" style="margin-left: 20%">
-    <div class="content">
+    <div class="content" >
       <img src="img/scallingafter.png" alt="Disease" style="width:100%">
       <h3>Scalling</h3>
       <p>After</p>
@@ -325,7 +378,7 @@
   </div>
 </div>
 <div class="row">
-  <div class="column" style="margin-left: 15%">
+  <div class="column" style="margin-left: 13%">
     <div class="content">
       <img src="img/curettagebefore.png" alt="Disease" style="width:100%">
       <h3>Curettage</h3>
@@ -347,7 +400,7 @@
 
 
 <div class="row">
-  <div class="column" style="margin-left: 15%">
+  <div class="column" style="margin-left: 13%">
     <div class="content">
       <img src="img/dipebefore.png" alt="Disease" style="width:100%">
       <h3>Depigmentation</h3>
@@ -365,7 +418,7 @@
 </div>
 
 <div class="row">
-  <div class="column" style="margin-left: 15%">
+  <div class="column" style="margin-left: 13%">
     <div class="content">
       <img src="img/gingibefore.png" alt="Disease" style="width:100%">
       <h3>Excision Of Gingival Overgrowth</h3>
@@ -405,7 +458,7 @@
       <div class="row">
         <div class="col-lg-4 ml-auto text-center">
           <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-          <div> 8299717351</div>
+          <div>+918299717351</div>
         </div>
         <div class="col-lg-4 mr-auto text-center">
           <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
@@ -422,7 +475,7 @@
   </div>
 </section>
 <div style="text-align: center">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.613832822014!2d80.31204431503559!3d26.468173983321076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c38784b4dda2d%3A0x8b6bb4051a33b50!2sDental%20Square!5e0!3m2!1sen!2sin!4v1578421245899!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" ></iframe></div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.613832822014!2d80.31204431503559!3d26.468173983321076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c38784b4dda2d%3A0x8b6bb4051a33b50!2sDental%20Square!5e0!3m2!1sen!2sin!4v1578421245899!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="true" ></iframe></div>
 
   <!-- Footer -->
 <footer class="bg-light py-5">
